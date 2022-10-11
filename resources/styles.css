@@ -1,0 +1,76 @@
+body {
+  color: #333333;
+  margin: 0 auto;
+  font-family: sans-serif;
+  background-color: beige;
+}
+
+header {
+  width: auto;
+  max-height: 300px;
+}
+
+header.recipe {
+  margin: 0;
+  padding: 0;
+  background-image: url("../resources/basic-crepes.webp");
+  height: 220px;
+  position: relative;
+  object-fit: cover;
+}
+header div {
+  background-color: rgba(255, 255, 255, 40%);
+  height: 100%;
+}
+
+h1,
+h3 {
+  padding: 30px;
+  font-size: xx-large;
+  margin: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+h3 span {
+  font-size: larger;
+  color: #111111;
+}
+
+h3 a:hover {
+  background-color: #333333;
+  color: beige;
+}
+
+hr {
+  margin: 0 10%;
+  color: #333333;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+main {
+  width: 90%;
+  min-height: 90%;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+article {
+  display: block;
+  float: left;
+  padding: 4.5%;
+  max-width: 25%;
+}
+
+img {
+  border-radius: 15px;
+  box-shadow: 20px -5px 30px #888888;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
