@@ -19,7 +19,7 @@ header {
 header.recipe {
   margin: 0;
   padding: 0;
-  background-image: url("../resources/splash.jpg");
+  background-image: url("./splash.jpg");
   height: 220px;
   position: relative;
   object-fit: cover;
